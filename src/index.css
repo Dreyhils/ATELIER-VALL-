@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Clash Grotesk', sans-serif;
+  --font-display: 'Clash Grotesk', sans-serif;
+  
+  --color-luxury-black: #1A1A1A;
+  --color-luxury-charcoal: #2D2D2D;
+  --color-luxury-cream: #FDFCF8;
+  --color-luxury-beige: #E8E6E1;
+  --color-luxury-taupe: #D2CFC9;
+  --color-luxury-accent: #C4A484;
+}
+
+body {
+  background-color: var(--color-luxury-cream);
+  color: var(--color-luxury-black);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
